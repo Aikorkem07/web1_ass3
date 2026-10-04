@@ -1,0 +1,154 @@
+
+@media (max-width: 991px) {
+
+    .hero {
+        padding: 70px 0;
+    }
+
+    .hero-text {
+        padding-right: 15px;
+        margin-bottom: 50px;
+    }
+
+    .hero h1 {
+        font-size: 55px;
+    }
+
+    .hero-image {
+        height: 400px;
+    }
+
+    .about-text {
+        padding-left: 0;
+        margin-top: 40px;
+    }
+
+    .navbar {
+        padding: 15px 0;
+    }
+
+    .nav-link {
+        margin-left: 0;
+    }
+}
+
+
+
+@media (max-width: 767px) {
+
+    body {
+        overflow-x: hidden;
+        font-size: 15px;
+    }
+
+    .container {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+
+    .navbar-brand {
+        font-size: 21px;
+    }
+
+
+
+    .hero {
+        padding: 55px 0;
+    }
+
+    .hero-text {
+        padding-right: 0;
+        margin-bottom: 35px;
+    }
+
+    .hero h1 {
+        font-size: 43px;
+    }
+
+    .hero-description {
+        font-size: 16px;
+    }
+
+    .hero-image {
+        height: 330px;
+        border-radius: 25px;
+    }
+
+    .photo-decoration {
+        width: 50px;
+        height: 50px;
+        font-size: 23px;
+        left: -5px;
+        bottom: -15px;
+    }
+
+
+
+    .roommates-section {
+        padding: 70px 0;
+    }
+
+    .section-heading h2 {
+        font-size: 35px;
+    }
+
+    .card-image {
+        height: 350px;
+    }
+
+
+
+    .about-section {
+        padding: 70px 0;
+    }
+
+    .about-photo img {
+        height: 300px;
+        border-radius: 25px;
+    }
+
+    .about-text h2 {
+        font-size: 35px;
+    }
+
+    .about-facts {
+        gap: 20px;
+    }
+
+
+
+    .footer-content {
+        flex-direction: column;
+        gap: 25px;
+        text-align: center;
+    }
+
+    .footer-socials {
+        justify-content: center;
+    }
+}
+
+
+
+@media (max-width: 480px) {
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .card-image {
+        height: 320px;
+    }
+
+    .about-facts {
+        gap: 15px;
+    }
+
+    .about-facts strong {
+        font-size: 25px;
+    }
+
+}

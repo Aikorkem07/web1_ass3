@@ -1,0 +1,367 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #fff7f8;
+    color: #5c4650;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+
+
+.navbar {
+    background: #ffffff;
+    padding: 20px 0;
+    border-bottom: 1px solid #f1d8df;
+}
+
+.navbar-brand {
+    color: #c98296;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.navbar-brand:hover {
+    color: #a96176;
+}
+
+.nav-link {
+    color: #5c4650;
+    font-size: 16px;
+    margin-left: 25px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #c98296;
+}
+
+
+
+.hero {
+    padding: 90px 0;
+    background: #fceff2;
+}
+
+.hero-text {
+    padding-right: 50px;
+}
+
+.small-title {
+    color: #c98296;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.hero h1 {
+    font-size: 65px;
+    line-height: 1.05;
+    color: #5c4650;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.hero h1 span,
+.about-text h2 span {
+    color: #c98296;
+}
+
+.hero-description {
+    max-width: 500px;
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.main-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    background: #c98296;
+    color: white;
+    padding: 14px 24px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.main-button:hover {
+    background: #a96176;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.hero-image-wrapper {
+    position: relative;
+}
+
+.hero-image {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+    border-radius: 35px;
+    box-shadow: 0 15px 40px rgba(92, 70, 80, 0.12);
+}
+
+.photo-decoration {
+    position: absolute;
+    bottom: -20px;
+    left: -20px;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background: white;
+    color: #c98296;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    box-shadow: 0 8px 25px rgba(92, 70, 80, 0.12);
+}
+
+
+
+.roommates-section {
+    padding: 100px 0;
+    background: #fff7f8;
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-heading p {
+    color: #c98296;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.section-heading h2 {
+    font-size: 45px;
+    color: #5c4650;
+    margin: 10px 0;
+}
+
+.section-heading h2 span {
+    color: #c98296;
+}
+
+.heading-line {
+    width: 50px;
+    height: 3px;
+    background: #e8a8b8;
+    margin: 15px auto;
+}
+
+
+
+.roommate-card {
+    height: 100%;
+    background: white;
+    border-radius: 25px;
+    overflow: hidden;
+    border: 1px solid #f2dce2;
+    transition: 0.3s;
+}
+
+.roommate-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 15px 35px rgba(92, 70, 80, 0.12);
+}
+
+.card-image {
+    height: 330px;
+    position: relative;
+    overflow: hidden;
+    background: #f8dde3;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.4s;
+}
+
+.roommate-card:hover .card-image img {
+    transform: scale(1.04);
+}
+
+.number {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: white;
+    color: #c98296;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.card-content {
+    padding: 25px;
+}
+
+.card-content h3 {
+    margin: 0;
+    color: #5c4650;
+    font-size: 25px;
+}
+
+.group {
+    color: #c98296;
+    font-size: 14px;
+    margin: 5px 0 15px;
+}
+
+.description {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.instagram-link {
+    color: #c98296;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.instagram-link:hover {
+    color: #a96176;
+}
+
+.instagram-link i {
+    margin-right: 6px;
+    font-size: 18px;
+}
+
+
+
+.about-section {
+    padding: 100px 0;
+    background: #fceff2;
+}
+
+.about-photo img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.about-text {
+    padding-left: 60px;
+}
+
+.about-text h2 {
+    font-size: 45px;
+    line-height: 1.1;
+    color: #5c4650;
+    margin-bottom: 25px;
+}
+
+.about-text > p:not(.small-title) {
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.about-facts {
+    display: flex;
+    gap: 35px;
+    margin-top: 30px;
+}
+
+.about-facts div {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-facts strong {
+    font-size: 30px;
+    color: #c98296;
+}
+
+.about-facts span {
+    font-size: 13px;
+}
+
+
+
+footer {
+    background: #5c4650;
+    color: white;
+    padding: 45px 0 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content h3 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.footer-content p {
+    margin: 0;
+    color: #e8cbd2;
+    font-size: 14px;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 12px;
+}
+
+.footer-socials a {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #e8a8b8;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.footer-socials a:hover {
+    background: #c98296;
+    transform: translateY(-3px);
+}
+
+.footer-bottom {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255,255,255,0.15);
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 13px;
+}

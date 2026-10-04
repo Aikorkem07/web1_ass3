@@ -365,3 +365,37 @@ footer {
 .footer-bottom p {
     font-size: 13px;
 }
+.vibes-section {
+    padding: 80px 0;
+    background: #fff7f8;
+}
+
+.vibes-container {
+    display: flex;
+    gap: 24px;
+}
+
+.vibe-box {
+    flex: 1;
+    padding: 35px 25px;
+    text-align: center;
+    background: #ffffff;
+    border: 1px solid #f1dce2;
+    border-radius: 24px;
+    box-shadow: 0 10px 25px rgba(100, 70, 80, 0.08);
+}
+
+.vibe-icon {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.vibe-box h3 {
+    color: #5b4650;
+    margin-bottom: 10px;
+}
+
+.vibe-box p {
+    color: #866f78;
+    margin: 0;
+}
